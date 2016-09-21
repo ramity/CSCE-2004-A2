@@ -129,7 +129,7 @@ int main ()
 
   if( running_weight )
   {
-    gpa = ( running_grade * running_weight ) / ( running_weight );
+    gpa = ( running_grade * running_weight ) / ( running_weight * steps );
 
     cout << "Congratulations, your GPA was " << gpa << "\n";
   }
