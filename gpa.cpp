@@ -104,7 +104,7 @@ int main ()
     else if (string_input == "F")
       running_grade += 0;
     else
-      cout << "Incorrect course grade.\n"
+      cout << "Incorrect course grade.\n";
 
     cout << "Input course credit hours. [5, 4, 3, 2, or 1]\n";
     cin >> string_input;
@@ -120,7 +120,7 @@ int main ()
     else if (string_input == "1")
       running_weight += 1;
     else
-      cout << "Incorrect course weight.\n"
+      cout << "Incorrect course weight.\n";
 
     step++;
   }
