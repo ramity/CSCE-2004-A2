@@ -273,7 +273,51 @@ int main ()
   {
     gpa = ( running_grade * running_weight ) / ( running_weight * steps );
 
-    cout << "Congratulations, your GPA was " << gpa << "\n";
+    for(z=0;z<steps;z++)
+    {
+      if(z == 0)
+      {
+        cout << "#" << z << ": " << cn0 << "\n";
+      }
+      else if(z == 1)
+      {
+        cout << "#" << z << ": " << cn1 << "\n";
+      }
+      else if(z == 2)
+      {
+        cout << "#" << z << ": " << cn2 << "\n";
+      }
+      else if(z == 3)
+      {
+        cout << "#" << z << ": " << cn3 << "\n";
+      }
+      else if(z == 4)
+      {
+        cout << "#" << z << ": " << cn4 << "\n";
+      }
+      else if(z == 5)
+      {
+        cout << "#" << z << ": " << cn5 << "\n";
+      }
+      else if(z == 6)
+      {
+        cout << "#" << z << ": " << cn6 << "\n";
+      }
+      else if(z == 7)
+      {
+        cout << "#" << z << ": " << cn7 << "\n";
+      }
+      else if(z == 8)
+      {
+        cout << "#" << z << ": " << cn8 << "\n";
+      }
+      else if(z == 9)
+      {
+        cout << "#" << z << ": " << cn9 << "\n";
+      }
+    }
+
+    cout << "\nOverall GPA : " << gpa << "\n";
   }
   else
   {
