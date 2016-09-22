@@ -273,7 +273,7 @@ int main ()
   {
     gpa = ( running_grade * running_weight ) / ( running_weight * steps );
 
-    for(z=0;z<steps;z++)
+    for(int z=0;z<steps;z++)
     {
       if(z == 0)
       {
