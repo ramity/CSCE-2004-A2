@@ -13,6 +13,10 @@ int main ()
   //weight
   double running_weight = 0;
 
+  //opted for a running grade + weight as it allows for better
+  //modularity in the future. Really looking forward to replacing it
+  //to become an array, though.
+
   //course names - limited to 9 w/out arrays
   string c0,c1,c2,c3,c4,c5,c6,c7,c8,c9 = "";
 
